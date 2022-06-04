@@ -1,0 +1,538 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #22577E;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #22577E;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #22577E;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #6B8E23;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #370665;
+    text-decoration: none;
+}
+
+a.tbl-hitam {
+    background: #808000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hitam:hover {
+    background: #370665;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #40E0D0;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #800008;
+    text-decoration: none;
+}
+
+a.tbl-ungu {
+    background: #FF1493;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-ungu:hover {
+    background: #5584AC;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px opx;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partners {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partners img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-partners p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+#CONTACT {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menuul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .kartu tutot {
+        width: 50%;
+    }
+    .kartu-partners {
+        width: 50%;
+    }
+}
+
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #3f72af;
+}
+
+a.tbl-hijau {
+    background: #000;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}
+
+a.tbl-hijau:hover {
+    background: #FFD700;
+    text-decoration: none;
+}
+
+.showmenu {
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 999;
+    top: 5%;
+    left: 2%
+}
+
+
+/*Main Nav*/
+
+.sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #fafafa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    max-width: 250px;
+    display: none
+}
+
+
+/*Close Menu*/
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    padding: 7px 0 0 10px;
+    line-height: 1
+}
+
+.sidenav .closebtn a {
+    color: white;
+    font-size: 25px;
+    line-height: 0
+}
+
+
+/*From Search*/
+
+#searching {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 8px 8px 0 0
+}
+
+#searching form {
+    margin: 0;
+    padding: 0
+}
+
+#searching form input {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 8px;
+    width: 60%;
+    float: right;
+    opacity: 0.5
+}
+
+#searching form input:focus {
+    width: 90%
+}
+
+#searching form:after {
+    content: "\f002";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 8px;
+    padding: 5px;
+    color: #44443380
+}
+
+
+/*Author*/
+
+.author-profile {
+    width: 100%;
+    max-width: 250px;
+    position: relative
+}
+
+.background img {
+    width: 100%;
+    height: 100%
+}
+
+.author-avatar,
+.author-title {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute
+}
+
+.author-avatar {
+    width: 100%;
+    height: 70px;
+    bottom: 70px
+}
+
+.author-avatar img {
+    width: 100%;
+    max-width: 70px;
+    height: auto
+}
+
+.author-title {
+    bottom: 40px;
+    color: #fafafa;
+    width: 100%
+}
+
+@media screen and (max-width:230px) {
+    #searching {
+        right: 0
+    }
+    #searching form:after {
+        content: ''
+    }
+    #searching form input {
+        width: 80%
+    }
+    .author-avatar {
+        bottom: 20px
+    }
+    .author-avatar img {
+        max-width: 50px
+    }
+    .author-title {
+        bottom: 15px
+    }
+}
+
+
+/*Main Menu*/
+
+.sidenav ul.menu {
+    margin: 0;
+    padding: 0;
+    font-size: 15px
+}
+
+@media screen and (max-width:250px) {
+    .sidenav ul.menu {
+        font-size: 12px
+    }
+}
+
+.sidenav ul.menu li i {
+    padding-right: 5px
+}
+
+.sidenav ul.menu li a {
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    color: #716e6e;
+    display: block;
+    transition: 0.3s;
+    background: #fafafa
+}
+
+
+/*Submenu*/
+
+.sidenav ul.menu li ul.submenu {
+    display: none;
+    margin: 0;
+    padding: 0
+}
+
+.sidenav ul.menu li ul.submenu li a {
+    background: #4d5151;
+    color: #bbb;
+    padding-left: 35px
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1
+}
+
+
+/*Social Media*/
+
+.sosmed {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: white;
+    font-size: 25px;
+    max-width: 250px;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #9c9999
+}
+
+.sosmed span.facebook a {
+    color: #3b5999
+}
+
+.sosmed span.twitter a {
+    color: #55acee
+}
+
+.sosmed span.google a {
+    color: #dd4b39
+}
+
+.sosmed span.hidesosmed a {
+    color: #de2fd6
+}
